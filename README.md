@@ -1,4 +1,4 @@
-# 🚖 Real-Time Metadata-Driven Data Lakehouse (Ride-Hailing Ecosystem)
+# 🚖 Metadata-Driven Lakehouse Architecture (Real-Time Streaming) 
 
 [![Azure](https://img.shields.io/badge/Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white)]()
 [![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white)]()
