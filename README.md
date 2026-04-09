@@ -78,8 +78,6 @@ The Gold layer denormalizes the cleansed fact and dimension tables into a highly
 ## 🤝 Connect with Me
 I am a Data Engineer actively looking for new opportunities. If you're building data-driven solutions and looking for someone with hands-on architectural experience, let's connect!
 
-* **LinkedIn:** [Insert LinkedIn Profile URL]
-* **Portfolio:** [Insert Portfolio URL]
+* **LinkedIn:** [https://www.linkedin.com/in/nafis-ansari-63878b182/]
+* **Portfolio:** [https://nafisansari786.github.io/Nafis.github.io/#]
 * **Email:** nafisansari786@outlook.com
-
-*(Special thanks to Ansh Lamba for the foundational project inspiration!)*
