@@ -1,0 +1,6 @@
+selected resource name:		HTTPToADLS
+selected resource type:		pipeline
+factory name:			adf-uberproject-nafis
+factory location:		centralindia
+subscription id:		ac34895c-7850-4854-be52-447df37cf428
+time of download (UTC):		Wed, 08 Apr 2026 14:59:52 GMT
