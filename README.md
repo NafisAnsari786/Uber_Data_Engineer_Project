@@ -60,6 +60,8 @@ The Gold layer denormalizes the cleansed fact and dimension tables into a highly
 4. **Gold Aggregation:** DLT pipelines execute, joining facts and dimensions via Jinja mappings to populate the OBT.
 5. **BI Serving:** Power BI connects directly to the Gold OBT via Partner Connect for real-time dashboarding.
 
+<img width="1916" height="1078" alt="DAG Graph ubber_end_to_end_orchestration" src="https://github.com/user-attachments/assets/49970600-d308-4d98-8e28-118e77ef16e0" />
+
 <img width="1913" height="1078" alt="DAG for uber_rides_ingest pipeline " src="https://github.com/user-attachments/assets/0f32d76f-1f12-4c1e-9405-24cde2734e64" />
 
 ---
