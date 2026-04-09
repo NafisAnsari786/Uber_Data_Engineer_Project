@@ -18,7 +18,8 @@ The primary goal of this project is to demonstrate enterprise-grade data enginee
 
 *(Place your Medallion Architecture diagram here. It should show the flow from ADF/Event Hubs -> Bronze -> Silver -> Gold/OBT.)*
 
-`![Architecture Diagram](images/architecture_diagram.png)`
+`![Architecture Diagram](<img width="1536" height="1024" alt="Architecture 2 0" src="https://github.com/user-attachments/assets/6398241b-9419-45b8-8a36-c634232952e0" />
+)`
 
 ---
 
