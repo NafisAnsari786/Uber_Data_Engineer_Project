@@ -6,7 +6,7 @@ from pyspark.sql.types import *
 EH_NAMESPACE = "uber-stream-nafis" 
 EH_NAME = "uber-topic"
 # Paste your actual SharedAccessKey below
-EH_CONN_STR = "Endpoint=sb://uber-stream-nafis.servicebus.windows.net/;SharedAccessKeyName=ListenPolicy;SharedAccessKey=QsDfgOOLWQBVP01uTO6Do4SIEgux8yX8T+AEhCgSFA4=;EntityPath=uber-topic"
+EH_CONN_STR = "ListenPolicy;SharedAccessKey for uber-topic"
 
 # 2. Kafka Options (with the dictionary bug fixes applied!)
 kafka_options = {
