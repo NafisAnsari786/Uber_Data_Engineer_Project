@@ -40,16 +40,12 @@ The primary goal of this project is to demonstrate enterprise-grade data enginee
 ### 2. Metadata-Driven Transformations (Silver Layer)
 Instead of hardcoding transformation logic, the pipeline utilizes **Jinja templates**. This dynamically fetches static mapping files and schema definitions directly from GitHub, decoupling the logic from the executing code and making the pipeline highly extensible.
 
-*(Place a code snippet image here showing your Jinja templating logic or the Silver layer transformation code.)*
-
-`![Jinja Transformation Snippet](images/jinja_transformation_snip.png)`
+<img width="1683" height="1015" alt="Obt py code" src="https://github.com/user-attachments/assets/986f6cc9-efbe-4351-b54c-7147b6e35acd" />
 
 ### 3. SCD Type 2 Implementation
 Historical data integrity is preserved using Slowly Changing Dimensions (SCD Type 1 & 2) in the Silver layer. When a driver's state changes (e.g., upgrading their vehicle tier), the pipeline dynamically updates the active flags and effective dates without dropping the historical record.
 
-*(Place a snippet here showing the output of your SCD Type 2 Databricks SQL query from the video.)*
-
-`![SCD Type 2 Snippet](images/scd_type_2_demo.png)`
+<img width="1613" height="1071" alt="SCD Type 2 Output" src="https://github.com/user-attachments/assets/36f91d1d-397b-426f-90b9-c735de09c968" />
 
 ### 4. The One Big Table (OBT) & DLT
 The Gold layer denormalizes the cleansed fact and dimension tables into a highly optimized One Big Table (OBT) using **Delta Live Tables (DLT)**. Strict data quality checks (`@dlt.expect_or_drop`) are enforced to ensure business-ready datasets are served to downstream BI teams with significantly reduced query latency.
@@ -64,9 +60,7 @@ The Gold layer denormalizes the cleansed fact and dimension tables into a highly
 4. **Gold Aggregation:** DLT pipelines execute, joining facts and dimensions via Jinja mappings to populate the OBT.
 5. **BI Serving:** Power BI connects directly to the Gold OBT via Partner Connect for real-time dashboarding.
 
-*(Place a screenshot here showing your successful Databricks Workflow DAG execution.)*
-
-`![Databricks Workflow Success](images/workflow_success_snip.png)`
+<img width="1913" height="1078" alt="DAG for uber_rides_ingest pipeline " src="https://github.com/user-attachments/assets/0f32d76f-1f12-4c1e-9405-24cde2734e64" />
 
 ---
 
